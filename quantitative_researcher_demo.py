@@ -168,7 +168,7 @@ def main():
     """)
     
     # Streamlit slider to choose the number of years
-    hist_years = st.slider("Select number of years of historical data", min_value=1, max_value=20, value=10)
+    hist_years = st.slider("Select number of years of historical data", min_value=1, max_value=20, value=20)
     
     # Load data
     end_date = datetime.date(2025,4,1)
